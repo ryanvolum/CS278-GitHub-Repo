@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80E3A9D7180B3AD700DF97B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80E3A9D6180B3AD700DF97B3 /* main.cpp */; };
+		80E3A9D9180B3AD700DF97B3 /* amazon_problems.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80E3A9D8180B3AD700DF97B3 /* amazon_problems.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80E3A9D0180B3AD700DF97B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				80E3A9D9180B3AD700DF97B3 /* amazon_problems.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80E3A9D2180B3AD700DF97B3 /* amazon problems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "amazon problems"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E3A9D6180B3AD700DF97B3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		80E3A9D8180B3AD700DF97B3 /* amazon_problems.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = amazon_problems.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80E3A9CF180B3AD700DF97B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80E3A9C7180B3AD500DF97B3 = {
+			isa = PBXGroup;
+			children = (
+				80E3A9D5180B3AD700DF97B3 /* amazon problems */,
+				80E3A9D3180B3AD700DF97B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80E3A9D3180B3AD700DF97B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E3A9D2180B3AD700DF97B3 /* amazon problems */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80E3A9D5180B3AD700DF97B3 /* amazon problems */ = {
+			isa = PBXGroup;
+			children = (
+				80E3A9D6180B3AD700DF97B3 /* main.cpp */,
+				80E3A9D8180B3AD700DF97B3 /* amazon_problems.1 */,
+			);
+			path = "amazon problems";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80E3A9D1180B3AD700DF97B3 /* amazon problems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E3A9DC180B3AD700DF97B3 /* Build configuration list for PBXNativeTarget "amazon problems" */;
+			buildPhases = (
+				80E3A9CE180B3AD700DF97B3 /* Sources */,
+				80E3A9CF180B3AD700DF97B3 /* Frameworks */,
+				80E3A9D0180B3AD700DF97B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "amazon problems";
+			productName = "amazon problems";
+			productReference = 80E3A9D2180B3AD700DF97B3 /* amazon problems */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80E3A9C9180B3AD500DF97B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Vanderbilt University";
+			};
+			buildConfigurationList = 80E3A9CC180B3AD600DF97B3 /* Build configuration list for PBXProject "amazon problems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80E3A9C7180B3AD500DF97B3;
+			productRefGroup = 80E3A9D3180B3AD700DF97B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E3A9D1180B3AD700DF97B3 /* amazon problems */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80E3A9CE180B3AD700DF97B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E3A9D7180B3AD700DF97B3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80E3A9DA180B3AD700DF97B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		80E3A9DB180B3AD700DF97B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80E3A9DD180B3AD700DF97B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80E3A9DE180B3AD700DF97B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80E3A9CC180B3AD600DF97B3 /* Build configuration list for PBXProject "amazon problems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3A9DA180B3AD700DF97B3 /* Debug */,
+				80E3A9DB180B3AD700DF97B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E3A9DC180B3AD700DF97B3 /* Build configuration list for PBXNativeTarget "amazon problems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3A9DD180B3AD700DF97B3 /* Debug */,
+				80E3A9DE180B3AD700DF97B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80E3A9C9180B3AD500DF97B3 /* Project object */;
+}

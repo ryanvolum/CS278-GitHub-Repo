@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80DDB3CD17EA15B100A9DBCA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80DDB3CC17EA15B100A9DBCA /* main.cpp */; };
+		80DDB3CF17EA15B100A9DBCA /* Homework3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80DDB3CE17EA15B100A9DBCA /* Homework3.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80DDB3C617EA15B100A9DBCA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				80DDB3CF17EA15B100A9DBCA /* Homework3.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80DDB3C817EA15B100A9DBCA /* Homework3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework3; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DDB3CC17EA15B100A9DBCA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		80DDB3CE17EA15B100A9DBCA /* Homework3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Homework3.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80DDB3C517EA15B100A9DBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80DDB3BD17EA15B100A9DBCA = {
+			isa = PBXGroup;
+			children = (
+				80DDB3CB17EA15B100A9DBCA /* Homework3 */,
+				80DDB3C917EA15B100A9DBCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80DDB3C917EA15B100A9DBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80DDB3C817EA15B100A9DBCA /* Homework3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80DDB3CB17EA15B100A9DBCA /* Homework3 */ = {
+			isa = PBXGroup;
+			children = (
+				80DDB3CC17EA15B100A9DBCA /* main.cpp */,
+				80DDB3CE17EA15B100A9DBCA /* Homework3.1 */,
+			);
+			path = Homework3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80DDB3C717EA15B100A9DBCA /* Homework3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DDB3D217EA15B100A9DBCA /* Build configuration list for PBXNativeTarget "Homework3" */;
+			buildPhases = (
+				80DDB3C417EA15B100A9DBCA /* Sources */,
+				80DDB3C517EA15B100A9DBCA /* Frameworks */,
+				80DDB3C617EA15B100A9DBCA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework3;
+			productName = Homework3;
+			productReference = 80DDB3C817EA15B100A9DBCA /* Homework3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80DDB3BF17EA15B100A9DBCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Vanderbilt University";
+			};
+			buildConfigurationList = 80DDB3C217EA15B100A9DBCA /* Build configuration list for PBXProject "Homework3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80DDB3BD17EA15B100A9DBCA;
+			productRefGroup = 80DDB3C917EA15B100A9DBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80DDB3C717EA15B100A9DBCA /* Homework3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80DDB3C417EA15B100A9DBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DDB3CD17EA15B100A9DBCA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80DDB3D017EA15B100A9DBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		80DDB3D117EA15B100A9DBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80DDB3D317EA15B100A9DBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80DDB3D417EA15B100A9DBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80DDB3C217EA15B100A9DBCA /* Build configuration list for PBXProject "Homework3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DDB3D017EA15B100A9DBCA /* Debug */,
+				80DDB3D117EA15B100A9DBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DDB3D217EA15B100A9DBCA /* Build configuration list for PBXNativeTarget "Homework3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DDB3D317EA15B100A9DBCA /* Debug */,
+				80DDB3D417EA15B100A9DBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80DDB3BF17EA15B100A9DBCA /* Project object */;
+}
